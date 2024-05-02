@@ -20,7 +20,8 @@ struct TimePicker: View {
                 }
             }
             .frame(width: 98)
-            .pickerStyle(.inline)
+           // .pickerStyle(.inline)
+            .pickerStyle(.menu)
             
             Picker("Minutes", selection: $minutes) {
                 ForEach(0..<60, id: \.self) { minute in
@@ -30,7 +31,8 @@ struct TimePicker: View {
                 }
             }
             .frame(width: 110)
-            .pickerStyle(.inline)
+                // .pickerStyle(.inline)
+            .pickerStyle(.menu)
             
             Picker("Seconds", selection: $seconds) {
                 ForEach(0..<61, id: \.self) { second in
