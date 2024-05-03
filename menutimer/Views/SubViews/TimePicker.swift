@@ -42,7 +42,8 @@ struct TimePicker: View {
                 }
             }
             .frame(width: 115)
-            .pickerStyle(.inline)            
+                // .pickerStyle(.inline)
+            .pickerStyle(.menu)           
         }
         .padding()
     }
