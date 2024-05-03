@@ -138,18 +138,11 @@ struct ContentView: View {
             .lineLimit(1)
             .minimumScaleFactor(0.1)
             .frame(width: 75)
-            //            .onChange(of: [hours, minutes, seconds]) { _, _ in
-            //                updateRemainingTime()
-            //            }
             .alert("timer complete", isPresented: $vm.showingAlert) {
                 Button("Continue", role: .cancel) {
                         //code
                 }
             }
     }
-    
-        //    private func updateRemainingTime() {
-        //        remainingTime = hours * 3600 + minutes * 60 + seconds
-        //    }
     
 }

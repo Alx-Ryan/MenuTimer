@@ -13,8 +13,6 @@ extension ShapeStyle where Self == Color {
 
 extension Color {
     
-        //MARK: start my code
-    
     public static var outlineRed: Color {
         return Color(decimalRed: 55, green: 0, blue: 4).opacity(0.7)
         
