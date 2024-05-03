@@ -48,7 +48,7 @@ struct ContentView: View {
                 Spacer()
                 
                 ZStack {
-                    BackgroundProgressView(themeColor: .darkRed)
+                    BackgroundProgressView(themeColor: .shadowRed)
                     TimeRemaining()
                     TimerProgressView(color1: color1, color2: color2, isTimerRunning: isTimerRunning, isTimerPaused: isTimerPaused, remainingTime: remainingTime)
                 }
